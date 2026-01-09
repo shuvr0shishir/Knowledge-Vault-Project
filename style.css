@@ -1,4 +1,5 @@
-/* importing google font */
+/* importing google font and cdns */
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css');
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
 .font-inter {
@@ -21,7 +22,7 @@
     margin: 0 auto;
 }
 
-.btn {
+.btn1 {
     padding: 12.5px 16px;
     border: none;
     border-radius: 4px;
@@ -31,11 +32,47 @@
     font-weight: 600;
     font-size: 16px;
 }
-.btn:hover{
-    background-color: #001931;
+
+.btn1:hover {
+    background-color: #00305d;
     transition: 0.3s ease;
 }
 
+.btn2{
+    padding: 16.5px 16px;
+    border: 1px solid white;
+    border-radius: 4px;
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 16px;
+}
+.btn2:hover {
+    border: 1px solid #30B868;
+    color: #30B868;
+    transition: 0.3s ease;
+}
+
+.btn3{
+    padding: 8px 12px;
+    border: none;
+    border-radius: 25px;
+    background-color: white;
+    color: #30B868;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.btn3:hover {
+    color: white;
+    background-color: #30B868;
+    transition: 0.3s ease;
+}
+.green{
+    color: #30B868;
+}
 
 /* Individual classes */
 
@@ -64,3 +101,50 @@ header nav .menu {
     opacity: 90%;
 }
 
+/* #banner{
+    background: url("./images/hero-bg.png");
+    background-repeat: no-repeat;
+    height: 674px;
+    margin: 0 auto;
+    text-align: center;
+    background-size: contain;
+} */
+
+#banner {
+    background: 
+        linear-gradient(#00193139),
+        url("./images/hero-bg.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    max-height: 674px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#banner .banner-content{
+    padding: 115px 0 180px;
+}
+
+#banner .banner-content .banner-txt{
+    padding: 16px 0;
+    color: white;
+}
+#banner .banner-content .banner-txt h1{
+    text-transform: capitalize;
+    opacity: 90%;
+    font-size: 72px;
+    line-height: 84px;
+}
+
+#banner .banner-content .banner-txt p{
+    font-size: 18px;
+    line-height: 24px;
+    max-width: 675px;
+    margin: 16px auto;
+}
+
+#banner .banner-content .btn1{
+    padding: 16.5px 16px;
+    margin-right: 16px;
+}
