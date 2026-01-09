@@ -38,7 +38,7 @@
     transition: 0.3s ease;
 }
 
-.btn2{
+.btn2 {
     padding: 16.5px 16px;
     border: 1px solid white;
     border-radius: 4px;
@@ -48,13 +48,14 @@
     font-weight: 600;
     font-size: 16px;
 }
+
 .btn2:hover {
     border: 1px solid #30B868;
     color: #30B868;
     transition: 0.3s ease;
 }
 
-.btn3{
+.btn3 {
     padding: 8px 12px;
     border: none;
     border-radius: 25px;
@@ -70,7 +71,8 @@
     background-color: #30B868;
     transition: 0.3s ease;
 }
-.green{
+
+.green {
     color: #30B868;
 }
 
@@ -108,7 +110,7 @@ header nav .menu {
 }
 
 #banner {
-    background: 
+    background:
         linear-gradient(#00193139),
         url("./images/hero-bg.png");
     background-repeat: no-repeat;
@@ -119,70 +121,123 @@ header nav .menu {
     text-align: center;
 }
 
-#banner .banner-content{
+#banner .banner-content {
     padding: 115px 0 180px;
 }
 
-#banner .banner-content .banner-txt{
+#banner .banner-content .banner-txt {
     padding: 16px 0;
     color: white;
 }
-#banner .banner-content .banner-txt h1{
+
+#banner .banner-content .banner-txt h1 {
     text-transform: capitalize;
     opacity: 90%;
     font-size: 72px;
     line-height: 84px;
 }
 
-#banner .banner-content .banner-txt p{
+#banner .banner-content .banner-txt p {
     font-size: 18px;
     line-height: 24px;
     max-width: 675px;
     margin: 16px auto;
 }
 
-#banner .banner-content .btn1{
+#banner .banner-content .btn1 {
     padding: 16.5px 16px;
     margin-right: 16px;
 }
 
-#note{
+#note {
     padding-top: 60px;
     text-align: center;
 }
 
-#note h2{
+#note h2,
+#brain .container .brain-content h2 {
     color: #001931;
     font-size: 48px;
-    text-transform: capitalize;   
+    text-transform: capitalize;
 }
 
-#note p{
+#note p {
     color: #627382;
     padding-top: 16px;
     line-height: 20px;
 }
 
-#note .note-cards{
+#note .note-cards {
     display: flex;
     justify-content: space-between;
     margin-top: 44px;
 }
 
-#note .note-cards .note-card{
+#note .note-cards .note-card {
     max-width: 300px;
     padding: 40px 24px;
     box-shadow: 0 0px 10px 0 #00000015;
     border-radius: 5px;
 }
-#note .note-cards .note-card img{
+
+#note .note-cards .note-card img {
     background-color: #F95555;
     padding: 14px;
     border-radius: 50%;
 }
-#note .note-cards .note-card h3{
+
+#note .note-cards .note-card h3 {
     color: #001931;
     font-size: 24px;
     text-transform: capitalize;
     padding: 14px 0;
 }
+
+
+#brain {
+    padding-top: 120px;
+}
+
+#brain .container {
+    display: flex;
+}
+
+#brain .container .brain-content {
+    padding: 60px 0 60px 60px;
+}
+
+.brain-content .green-txt {
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #30B868;
+    padding: 0 0 16px;
+}
+.brain-content .sub-txt{
+    max-width: 445px;
+    color: #627382;
+    padding-top: 16px;
+    line-height: 20px;
+}
+
+
+.brain-content .check-content{
+    padding-top: 40px;
+}
+
+.brain-content .check-content .check-txt{
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+}
+
+.brain-content .check-content .check-txt p{
+    display: inline;
+    color: #001931;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 500;
+    margin-left: 6px;
+}
+
+
+
