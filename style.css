@@ -74,10 +74,16 @@
     color: #30B868;
 }
 
+
+
+
+
+
+
 /* Individual classes */
 
 header nav {
-    padding: 16px 0;
+    padding: 14px 0;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -100,15 +106,6 @@ header nav .menu {
     line-height: 152%;
     opacity: 90%;
 }
-
-/* #banner{
-    background: url("./images/hero-bg.png");
-    background-repeat: no-repeat;
-    height: 674px;
-    margin: 0 auto;
-    text-align: center;
-    background-size: contain;
-} */
 
 #banner {
     background: 
@@ -147,4 +144,45 @@ header nav .menu {
 #banner .banner-content .btn1{
     padding: 16.5px 16px;
     margin-right: 16px;
+}
+
+#note{
+    padding-top: 60px;
+    text-align: center;
+}
+
+#note h2{
+    color: #001931;
+    font-size: 48px;
+    text-transform: capitalize;   
+}
+
+#note p{
+    color: #627382;
+    padding-top: 16px;
+    line-height: 20px;
+}
+
+#note .note-cards{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 44px;
+}
+
+#note .note-cards .note-card{
+    max-width: 300px;
+    padding: 40px 24px;
+    box-shadow: 0 0px 10px 0 #00000015;
+    border-radius: 5px;
+}
+#note .note-cards .note-card img{
+    background-color: #F95555;
+    padding: 14px;
+    border-radius: 50%;
+}
+#note .note-cards .note-card h3{
+    color: #001931;
+    font-size: 24px;
+    text-transform: capitalize;
+    padding: 14px 0;
 }
