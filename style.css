@@ -22,6 +22,7 @@
     margin: 0 auto;
 }
 
+/* buttons degsign */
 .btn1 {
     padding: 12.5px 16px;
     border: none;
@@ -31,6 +32,10 @@
     cursor: pointer;
     font-weight: 600;
     font-size: 16px;
+}
+
+.btn1 i{
+    margin-left: 10px;
 }
 
 .btn1:hover {
@@ -49,6 +54,9 @@
     font-size: 16px;
 }
 
+.btn2 i{
+    margin-right: 10px;
+}
 .btn2:hover {
     border: 1px solid #30B868;
     color: #30B868;
@@ -60,7 +68,7 @@
     border: none;
     border-radius: 25px;
     background-color: white;
-    color: #30B868;
+    color: #469165;
     cursor: pointer;
     font-weight: 500;
     font-size: 16px;
@@ -68,7 +76,7 @@
 
 .btn3:hover {
     color: white;
-    background-color: #30B868;
+    background-color: #469165;
     transition: 0.3s ease;
 }
 
@@ -161,7 +169,7 @@ header nav .menu {
     text-transform: capitalize;
 }
 
-#note p {
+#note p, .access-content p {
     color: #627382;
     padding-top: 16px;
     line-height: 20px;
@@ -194,7 +202,7 @@ header nav .menu {
 }
 
 
-#brain {
+#brain, #early-access{
     padding-top: 120px;
 }
 
@@ -237,6 +245,27 @@ header nav .menu {
     line-height: 20px;
     font-weight: 500;
     margin-left: 6px;
+}
+
+#early-access .container{
+    background-color: #F7F6F2;
+    border-radius: 12px;
+}
+
+#early-access .container .access-content{
+    max-width: 610px;
+    text-align: center;
+    padding: 80px 0;
+    margin: 0 auto;
+}
+
+.access-content h2{
+    font-size: 40px;
+    font-weight: bold;
+    color: #001931;
+}
+.access-content .btn1{
+    margin-top: 24px;
 }
 
 
