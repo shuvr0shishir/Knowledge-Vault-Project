@@ -24,7 +24,7 @@
 
 /* buttons degsign */
 .btn1 {
-    padding: 12.5px 16px;
+    padding: 16.5px 16px;
     border: none;
     border-radius: 4px;
     background-color: #469165;
@@ -34,14 +34,10 @@
     font-size: 16px;
 }
 
-.btn1 i{
+.btn1 i {
     margin-left: 10px;
 }
 
-.btn1:hover {
-    background-color: #00305d;
-    transition: 0.3s ease;
-}
 
 .btn2 {
     padding: 16.5px 16px;
@@ -54,14 +50,10 @@
     font-size: 16px;
 }
 
-.btn2 i{
+.btn2 i {
     margin-right: 10px;
 }
-.btn2:hover {
-    border: 1px solid #30B868;
-    color: #30B868;
-    transition: 0.3s ease;
-}
+
 
 .btn3 {
     padding: 8px 12px;
@@ -74,19 +66,40 @@
     font-size: 16px;
 }
 
-.btn3:hover {
-    color: white;
-    background-color: #469165;
-    transition: 0.3s ease;
-}
-
 .green {
     color: #30B868;
 }
 
 
 
+/* hover effects */
 
+.btn1:hover {
+    background-color: #00305d;
+    transition: 0.3s ease;
+}
+
+.btn2:hover {
+    border: 1px solid #30B868;
+    color: #30B868;
+    transition: 0.3s ease;
+}
+
+.btn3:hover {
+    color: white;
+    background-color: #469165;
+    transition: 0.3s ease;
+}
+
+.menu li :hover {
+    color: #30B868;
+    transition: 0.3s ease;
+}
+
+.foot-container .social a :hover {
+    color: #30B868;
+    transition: 0.3s ease;
+}
 
 
 
@@ -103,6 +116,10 @@ header nav .menu {
     display: flex;
     align-items: center;
     gap: 32px;
+}
+
+header nav .btn1 {
+    padding: 12.5px 16px;
 }
 
 .menu li {
@@ -153,7 +170,6 @@ header nav .menu {
 }
 
 #banner .banner-content .btn1 {
-    padding: 16.5px 16px;
     margin-right: 16px;
 }
 
@@ -169,7 +185,8 @@ header nav .menu {
     text-transform: capitalize;
 }
 
-#note p, .access-content p {
+#note p,
+.access-content p {
     color: #627382;
     padding-top: 16px;
     line-height: 20px;
@@ -202,7 +219,8 @@ header nav .menu {
 }
 
 
-#brain, #early-access{
+#brain,
+#early-access {
     padding-top: 120px;
 }
 
@@ -220,7 +238,8 @@ header nav .menu {
     color: #30B868;
     padding: 0 0 16px;
 }
-.brain-content .sub-txt{
+
+.brain-content .sub-txt {
     max-width: 445px;
     color: #627382;
     padding-top: 16px;
@@ -228,17 +247,17 @@ header nav .menu {
 }
 
 
-.brain-content .check-content{
+.brain-content .check-content {
     padding-top: 40px;
 }
 
-.brain-content .check-content .check-txt{
+.brain-content .check-content .check-txt {
     display: flex;
     align-items: center;
     margin-bottom: 16px;
 }
 
-.brain-content .check-content .check-txt p{
+.brain-content .check-content .check-txt p {
     display: inline;
     color: #001931;
     font-size: 16px;
@@ -247,26 +266,84 @@ header nav .menu {
     margin-left: 6px;
 }
 
-#early-access .container{
+#early-access .container {
     background-color: #F7F6F2;
     border-radius: 12px;
 }
 
-#early-access .container .access-content{
+#early-access .container .access-content {
     max-width: 610px;
     text-align: center;
     padding: 80px 0;
     margin: 0 auto;
 }
 
-.access-content h2{
+.access-content h2 {
     font-size: 40px;
     font-weight: bold;
     color: #001931;
 }
-.access-content .btn1{
+
+.access-content .btn1 {
     margin-top: 24px;
 }
 
 
 
+footer {
+    margin-top: 120px;
+    background-color: #001931;
+}
+
+footer .container {
+    padding-top: 120px;
+}
+
+footer .container .foot-container {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 80px;
+}
+
+footer .container .foot-container .foot-logo {
+    max-height: 60px;
+}
+
+footer .container .foot-container .social {
+    color: white;
+    width: 220px;
+}
+
+.foot-container .social h3 {
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 500;
+    padding-bottom: 18px;
+}
+
+.foot-container .social a {
+    color: white;
+    cursor: pointer;
+}
+
+.foot-container .social i {
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+.foot-container .social a :hover {
+    color: #30B868;
+}
+
+footer .container hr {
+    opacity: 25%;
+}
+
+footer .container p {
+    color: #FAFAFA;
+    padding: 30px 0;
+    text-align: center;
+    line-height: 24px;
+}
+
+/* all done :D */
